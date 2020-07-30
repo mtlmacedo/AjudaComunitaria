@@ -18,7 +18,7 @@ export default class RepresentanteSingUp extends Component {
           flex: 1,
           alignItems: 'center',
           justifyContent: 'center',
-          backgroundColor: '#511DDB',
+          backgroundColor: '#574CE6',
         }}>
         <TextInput
           placeholder="Email"
@@ -40,7 +40,7 @@ const style = StyleSheet.create({
     marginTop: 5,
     borderWidth: 5,
     borderRadius: 25,
-    borderColor: '#511DDB',
+    borderColor: '#574CE6',
     width: Math.round(Dimensions.get('window').width - 25),
     backgroundColor: 'white',
     textAlign: 'center',

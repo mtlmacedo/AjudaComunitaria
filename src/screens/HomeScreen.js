@@ -9,7 +9,7 @@ export default function HomeScreen({navigation}) {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#4C4CE6',
+        backgroundColor: '#574CE6',
       }}>
       <TouchableOpacity
         onPress={() => navigation.navigate('MoradorSingUp')}
@@ -37,7 +37,7 @@ const style = StyleSheet.create({
     height: 90,
     width: 300,
     margin: 10,
-    backgroundColor: '#DB484E',
+    backgroundColor: '#DB5348',
     borderRadius: 30,
     alignItems: 'center',
     justifyContent: 'center',
