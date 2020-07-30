@@ -4,7 +4,13 @@ import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 
 export default function HomeScreen({navigation}) {
   return (
-    <View style={{marginTop: 100, alignItems: 'center'}}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#4C4CE6',
+      }}>
       <TouchableOpacity
         onPress={() => navigation.navigate('MoradorSingUp')}
         style={style.btn}>
@@ -28,18 +34,17 @@ export default function HomeScreen({navigation}) {
 
 const style = StyleSheet.create({
   btn: {
-    height: 70,
-    width: 270,
-    margin: 15,
-    backgroundColor: 'black',
-    borderRadius: 10,
+    height: 90,
+    width: 300,
+    margin: 10,
+    backgroundColor: '#DB484E',
+    borderRadius: 30,
     alignItems: 'center',
     justifyContent: 'center',
   },
   txt: {
-    fontSize: 18,
+    fontSize: 20,
     color: 'white',
-    fontStyle: 'italic',
     fontWeight: 'bold',
     textAlign: 'center',
   },
